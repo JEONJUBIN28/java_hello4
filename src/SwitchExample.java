@@ -2,6 +2,27 @@
 public class SwitchExample {
 
 	public static void main(String[] args) {
+
+		// 1부터 1000까지의 숫자중 11의 배수이자 7의 배수인 첫번째수는?
+
+		for (int i = 1; i <= 1000; i++) {
+
+			if ((i % 7 == 0) && (i % 11 == 0)) {
+			System.out.println(i);
+			break;
+			
+			}
+			
+		}
+
+		for (int i = 1; i <= 100; i++) {
+
+			if (i == 10)
+				break;
+			System.out.println("Hellow world");
+		}
+
+		/////////////////////////////////////////////////////////
 		int count = 1;
 		// while은 if문과 비듯하지만 ()안에 트루일때까지 반복적으로 행하는것.
 		while (count <= 100) {
@@ -18,8 +39,7 @@ public class SwitchExample {
 				sum = sum + i;
 				System.out.println(sum);
 			}
-			
-			
+
 			i++;
 		}
 
