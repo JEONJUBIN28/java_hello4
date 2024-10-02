@@ -4,13 +4,13 @@ public class SwitchExample {
 	public static void main(String[] args) {
 
 		// 구구단 꼭 외워야한다. 변수명(i, j, k)
-//		for (int i = 2; i < 10; i++) {
-//			System.out.println(i + "단입니다.");
-//			for (int j = 1; j < 10; j++) {
-//				System.out.println(i + "x" + j + "=" + (i * j));
-//			}
-//			System.out.println(); // 한칸 개행시키는것이다.
-//		}
+		for (int i = 2; i < 10; i++) {
+			System.out.println(i + "단입니다.");
+			for (int j = 1; j < 10; j++) {
+				System.out.println(i + "x" + j + "=" + (i * j));
+			}
+			System.out.println(); // 한칸 개행시키는것이다.
+		}
 
 		// 짝수단만 나오게 하세요.
 //		for (int i = 2; i < 10; i++) {
